@@ -4,7 +4,7 @@ project(project)
 
 set(TARGET crop)
 # set(SRC visualizer.cpp pcl-lib/visualization.cpp)
-set(SRC crop.cpp)
+set(SRC src/crop.cpp)
 
 include_directories(/usr/include/eigen3/)
 include_directories(/usr/include/pcl-1.8)
